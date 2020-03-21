@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/bspluci/my-homework.git/static/css/main.5f361e03.chunk.css",
+    "main.js": "/bspluci/my-homework.git/static/js/main.4043ae6a.chunk.js",
+    "main.js.map": "/bspluci/my-homework.git/static/js/main.4043ae6a.chunk.js.map",
+    "runtime-main.js": "/bspluci/my-homework.git/static/js/runtime-main.91b94c48.js",
+    "runtime-main.js.map": "/bspluci/my-homework.git/static/js/runtime-main.91b94c48.js.map",
+    "static/js/2.4ed9c875.chunk.js": "/bspluci/my-homework.git/static/js/2.4ed9c875.chunk.js",
+    "static/js/2.4ed9c875.chunk.js.map": "/bspluci/my-homework.git/static/js/2.4ed9c875.chunk.js.map",
+    "index.html": "/bspluci/my-homework.git/index.html",
+    "precache-manifest.8901f8533542cf80563cb35198ec4eb7.js": "/bspluci/my-homework.git/precache-manifest.8901f8533542cf80563cb35198ec4eb7.js",
+    "service-worker.js": "/bspluci/my-homework.git/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/bspluci/my-homework.git/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.4ed9c875.chunk.js.LICENSE.txt": "/bspluci/my-homework.git/static/js/2.4ed9c875.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/bspluci/my-homework.git/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.91b94c48.js",
+    "static/js/2.4ed9c875.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.4043ae6a.chunk.js"
+  ]
+}
