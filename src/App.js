@@ -9,7 +9,6 @@ class App extends Component {
    };
 
    handleChange = e => {
-      e.preventDefault();
       const { value, name } = e.target;
 
       this.setState({
@@ -18,18 +17,16 @@ class App extends Component {
    };
 
    isSafe = () => {
-      const passwordMatch = this.state.password.indexOf(this.state.userid);
-      console.log(passwordMatch);
+      const { userid, password, email, disabled } = this.state;
+      const passwordMatch = password.indexOf(userid);
+
       this.setState({
-         disabled: (this.state.password.length < 5, passwordMatch) ? true : false,
+         disabled: !passwordMatch ? true : false,
       });
 
       // const passwordMatch = this.state.password.indexOf(this.state.userid);
       // const emailMatch = this.state.email.indexOf("@");
       // const alphabet = /(?=.*[a-z])(?=.*[A-Z])/;
-
-      // console.log(this.state.userid);
-      // console.log(this.state.password);
 
       // (this.state.password.length > 5,
       // alphabet.test(this.state.password),
@@ -40,12 +37,13 @@ class App extends Component {
    };
 
    render() {
+      const { userid, password, email, disabled } = this.state;
       return (
          <form onChange={this.isSafe}>
-            <input name="userid" value={this.state.userid} onChange={this.handleChange}></input>
-            <input name="password" value={this.state.password} onChange={this.handleChange}></input>
-            <input name="email" value={this.state.email} onChange={this.handleChange}></input>
-            <button type="button" disabled={this.state.disabled}>
+            <input name="userid" value={userid} onChange={this.handleChange}></input>
+            <input name="password" value={password} onChange={this.handleChange}></input>
+            <input name="email" value={email} onChange={this.handleChange}></input>
+            <button type="button" disabled={disabled}>
                Submit
             </button>
          </form>
