@@ -74,7 +74,7 @@
    "eslintConfig": {
       "extends": "react-app"
    },
-   "homepage": "https://bspluci.github.io/my-homework",
+   "homepage": "https://bspluci.github.io/react-project",
    "browserslist": {
       "production": [
          ">0.2%",
